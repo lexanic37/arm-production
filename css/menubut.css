@@ -1,0 +1,57 @@
+button span,
+button:before,
+button:after {
+    height: 4px;
+    width: 40px;
+    background: white;
+    display: block;
+    position: absolute;
+    left: 0;
+    content: '';
+    margin: auto;
+    -webkit-transition: all 400ms ease;
+    transition: all 400ms ease;
+    border-radius: 999px;
+}
+button {
+    position: fixed;
+    border: none;
+    text-indent: -9999px;
+    top: 30px;
+    left: 30px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    background: none;
+    outline: none;
+}
+button span {
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 800ms ease;
+    transition: all 800ms ease;
+}
+button:before {
+    top: 0;
+}
+button:after {
+    bottom: 0;
+}
+button.clicked span {
+    opacity: 0;
+}
+button.clicked:before {
+    top: 15px;
+    width: 60px;
+    left: -10px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+button.clicked:after {
+    top: -5px;
+    width: 60px;
+    left: -10px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

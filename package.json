@@ -1,0 +1,23 @@
+{
+  "name": "arm",
+  "version": "1.0.0",
+  "description": "local project",
+  "main": "index.js",
+  "dependencies": {
+    "less": "^2.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexanic37/arm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lexanic37/arm/issues"
+  },
+  "homepage": "https://github.com/lexanic37/arm#readme"
+}

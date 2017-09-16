@@ -1,0 +1,111 @@
+.gym {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+
+}
+.bot_info{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.81);
+    flex-flow:row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    transition: all .9s;
+    z-index: 0;
+
+}
+.gym h2{
+    text-transform: uppercase;
+    font-family:'micra bold';
+    margin-top: 100px;
+    font-size: 3vw;
+}
+.bot_info > p , i {
+    min-width: 20%;
+    color: black;
+    font-size:3vw;
+    font-family:'micra bold';
+    text-align: center;
+    text-transform: uppercase;
+
+    flex-grow:0;
+    flex-shrink: 0;
+}
+.mesure{
+    position: relative;
+    font-size: 20px;
+    top: -1.7vw;
+}
+.bot_info i{
+    font-size: 6vw;
+}
+.bot_info p > span{
+    font-size: 1.5vw;
+}
+
+.contr{
+    top:-40px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    width: 100px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.81);
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active_bot{
+    animation-name: fd;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+@keyframes fd {
+    from{
+        top: 0%;
+
+    }
+    to{
+        top: 30%;
+    }
+}
+@keyframes fdreverse {
+    from{
+        top: 30%;
+
+    }
+    to{
+        top: 0%;
+    }
+}
+.inactive{
+    animation-name: fdreverse;
+    animation-duration: 1s;
+    animation-fill-mode:both;
+}
+.contr p{
+    transition: all 1s;
+    transform: rotate(180deg);
+    text-align: center;
+    width: 100px;
+    display: block;
+    flex-basis: 100%;
+    font-size: 1.5vw;;
+
+
+}
+.str i{
+    text-align: center;
+    font-size: 40px;
+    flex-basis: 100%;
+}
+.fp-section {
+    visibility: hidden;
+}

@@ -1,0 +1,56 @@
+.info{
+    flex-basis: 35%;
+    height:100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.map{
+    flex-basis: 65%;
+    height: 100%;
+}
+.adress{
+    flex-basis: 40%;
+    display: flex;
+    flex-grow: 0;
+}
+.adress p{
+    font-size:72px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+}
+.adress span{
+    font-size:30px;
+}
+.social{
+    flex-basis: 40%;
+    display: flex;
+    flex-grow: 0;
+}
+.social p{
+    margin: auto;
+    font-size:72px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.social i {
+    color: white;
+    font-size:100px;
+}
+.number a{
+    background-color: transparent;
+    font-size:72px;
+}
+.number a:hover{
+    background-color: transparent;
+}
+.map{
+    display: flex;
+}
+.widget_map{
+    border-radius: 20px;
+    margin: auto;
+}

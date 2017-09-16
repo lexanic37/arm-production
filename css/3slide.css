@@ -1,0 +1,84 @@
+.page3 > .flex{
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.half_2{
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.bgw{
+    justify-content: flex-start;
+    align-items: stretch;
+    background-color: white;
+    height: 100%;
+    flex-shrink: 0;
+    flex-grow: 2;
+    flex-basis: 150px;
+}
+.bgw.one{
+    opacity: 0.5;
+}
+.bgw.second{
+    opacity: 0.75;
+}
+.half_2 img{
+    position: absolute;
+    bottom: 0;
+    z-index: 980;
+    left: 10%;
+    max-width:100%;
+    max-height: 95%;
+}
+.half_1 img{
+    position: absolute;
+    height: 100%;
+     z-index: 0;
+    right: 0;
+}
+.half_1  {
+    flex-basis: 50%;
+    position: relative;
+
+}
+.half_1 > .logo{
+    position: absolute;
+    font-size: 72px;
+    max-width: 100%;
+    width: 450px;
+    line-height: 0.85;
+    z-index: 5;
+    top:10%;
+    left: 50%;
+    margin-left: -225px;
+    margin-bottom: 1px;
+}
+.text_container{
+    margin-top: 35%;
+    position: absolute;
+    width:100%;
+    z-index:5;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.abouttop{
+    margin-left: 50px;
+    float: left;
+    width: 50%;
+    text-shadow: white 5px 5px 5px;
+    align-self: flex-start;
+}
+.aboutbot{
+    align-self: flex-end;
+    width: 50%;
+    margin-right: 50px;
+    margin-top: 10%;
+    text-align: end;
+    opacity: 0.5;
+    margin-bottom: 10%;
+}

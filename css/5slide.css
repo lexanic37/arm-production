@@ -1,0 +1,136 @@
+.container_5{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.half_3{
+    flex-basis: 50%;
+    background-color: white;
+    height: 100%;
+}
+.half_4{
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.half_4 >div{
+    width: 90%;
+    margin: 0 50px;
+    height: 20%;
+    background-color: rgba(255, 255, 255, 0.81);
+    flex-shrink: 0;
+    flex-basis: 20%;
+
+}
+.half_3 img{
+    width: 100%;
+    height: 50%;
+}
+.bigimg{
+    background-image: url(../images/4slbggym.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item_img1,.item_img2,.item_img3,.item_img4{
+    width: 18vh;
+    height: 18vh;
+    background-image: url(../images/man3sl.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-left: 0.7vw;
+    flex-shrink: 0;
+}
+.item1, .item2, .item3, .item4{
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+}
+.item_text{
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 20%;
+    justify-content: space-around;
+    text-align: center;
+
+
+}
+.item_text > p{
+    color: black;
+    font-family:"play";
+    margin-bottom: 15%;
+}
+.item_text > h2{
+    color: black;
+    font-family:"play";
+    margin-top: 15%;
+}
+.item_text > h2{
+    font-size:35px;
+    margin-bottom: 0;
+}
+.item_text > p{
+    font-size: 25px;
+}
+.item4:hover{
+    transition: all .3s;
+    transform: scale(1.05);
+}
+.item1:hover{
+    transition: all .3s;
+    transform: scale(1.05);
+
+}
+.item2:hover{
+    transition: all .3s;
+    transform: scale(1.05);
+}
+.item3:hover{
+    transition: all .3s;
+    transform: scale(1.05);
+}
+.half_3 > div{
+    color: black;
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 50%;
+}
+
+.half_3 h2{
+    font-size:35px;
+    text-align: center;
+    flex-grow: 0;
+}
+.dateb{
+    margin-bottom: 50px;
+    align-self: flex-start;
+    font-size:23px;
+}
+.half_3 a{
+    background-color: transparent;
+    text-decoration: none;
+    line-height: 1.5;
+    color: black;
+    opacity: 0.7;
+    padding: 0;
+}.half_3 a:hover{
+    background-color: transparent;
+    opacity: 1;
+    transition: all .3s;
+
+}
+.text1, .text2, .text3, .text4{
+    display:none;
+}

@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ARM SPORT</title>
+    <meta name="description" content="Секция MMA в тейково.">
+    <meta http-equiv="content-language" content="ru">
+    <meta name="robots" content="index,follow">
+    <meta name="author" content="Хайдин Алексей">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="Тейково,fight,mafia,мма тейково,мма,mma,спорт,бои">
+
+    <link rel="stylesheet" href="fullpage/jquery.fullPage.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
+
+    <!-- Сustom css!.-->
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/1slide.css">
+    <link rel="stylesheet" href="css/2slide.css">
+    <link rel="stylesheet" href="css/3slide.css">
+    <link rel="stylesheet" href="css/4slide.css">
+    <link rel="stylesheet" href="css/5slide.css">
+    <link rel="stylesheet" href="css/6slide.css">
+    <link rel="stylesheet" href="css/7slide.css">
+    <!--End!-->
+    <link rel="stylesheet" href="css/bgivedeo.css">
+    <link rel="stylesheet" href="css/bootstrap/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap/animate.css">
+
+    <!--fonts!-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/FontAwesome.otf">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2">
+      <link href="http://allfont.ru/allfont.css?fonts=micra-bold" rel="stylesheet" type="text/css" >
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/prefixfree.min.js"></script>
+    <link rel="stylesheet" href="css/menubut.css">
+
+
+</head>
+<body>
+
+<video id="bgvid" playsinline autoplay muted loop>
+  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+<source src="https://cs509104.vkuservideo.net/5/u72056389/videos/d699abdd90.480.mp4?extra=Yx-xABB_78jJs6D4677Cz9cyuovDK6FNw_4cI9lumYctfDntwKcdlljB5b_gS-uA2mmVxfMi6v8gh9P2s7BL55Gma-T63zLyIbuFtlv9dBcefxofYuEjFLUBtZRsWGI-noYfuxFYTASBSgA" type="video/webm">
+<source src="" type="video/mp4">
+</video>
+<div class="menu_container">
+<ul id="mainMenu">
+        <li class="menu__li" data-menuanchor="onePage" class="active"><a class="menu__a" href="#onePage">ГЛАВНАЯ
+        </a></li>
+        <li class="menu__li" data-menuanchor="twoPage"><a class="menu__a" href="#twoPage">О НАС</a></li>
+        <li class="menu__li" data-menuanchor="threePage"><a class="menu__a" href="#threePage">ТРЕНЕР</a></li>
+        <li class="menu__li" data-menuanchor="forPage"><a class="menu__a" href="#forPage">РАСПИСАНИЕ</a></li>
+        <li class="menu__li" data-menuanchor="fifthPage"><a class="menu__a" href="#fifthPage">ГДЕ?</a></li>
+    </ul>
+</div>
+<div class="menu_mob"><button><span>Menu</span></button></div>
+<div   id="fullpage">
+    <div class="section page1">
+        <div class="container">
+            <div class="logocontainer">
+                <div class="br"></div>
+                <h1  class="logo">ARM<br>SPORT</h1>
+                <p>Современное оборудование и профессиональные сотрудники</p>
+                <div class="br opac"></div>
+            </div>
+            <div class="questionconteiner">
+                <div class="pcont"><p>Ищешь комфортный тренаженажерный зал в Тейково?</p><br>
+                <p>С поофессиональным тренерским составом и хорошими ценами?</p><br>
+                <p>Тогда запишись уже сейчас и получи скидку 30%!</p></div>
+                <div class="vr"></div>
+            </div>
+            <div class="vr opac"></div>
+            <a class="button">Записаться <div class="dumbcontainer"><img class="dumbwhite" src="images/dumble.png" title="Гантель" ><img class="dumbleblack"src="https://png.icons8.com/dumbbell-filled/ios7/25" title="Гантель Filled"></div></a>
+        </div>
+    </div>
+    <div class="section page2">
+        <div class="container flex">
+            <div class="advantage">
+                <div class="icon_container">
+                    <img class="white_icon" src="images/icons/icon1.png">
+                    <img class="black_icon" src="images/icons/iconb1.png">
+                </div>
+
+                <div class="brb"></div>
+                <h3>Современное оборудование</h3>
+                <p>Odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+            </div>
+            <div class="vrb"></div>
+            <div class="advantage">
+                <div class="icon_container">
+                    <img class="white_icon" src="images/icons/icon2.png">
+                    <img class="black_icon" src="images/icons/iconb2.png">
+                </div>
+                <div class="brb"></div>
+                <h3>Современное оборудование</h3>
+                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.z</p>
+            </div>
+            <div class="vrb"></div>
+            <div class="advantage">
+                <div class="icon_container">
+                    <img class="white_icon"src="images/icons/icon3.png">
+                    <img class="black_icon" src="images/icons/iconb3.png">
+                </div>
+                <div class="brb"></div>
+                <h3>Современное оборудование</h3>
+                <p >This is Photoshop's version  of Lorem Ipsum. Proineu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="section page3">
+        <div class="container flex">
+            <div class="half_1">
+                <h1 class="logo">ARM <br>&emsp; sport</h1>
+                <img src="images/bg_0.png">
+                <div class="text_container">
+                <p class="abouttop">Aostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+                <p class="aboutbot">Aostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim</p>
+                </div>
+            </div>
+            <div class="half_2">
+                <img src="images/man3sl.png">
+                <div class="bgw one"></div>
+                <div class="bgw second"></div>
+                <div class="bgw  three"></div>
+            </div>
+        </div>
+    </div>
+    <div class="section page4">
+        <div class="slide" data-anchor="slide1">
+            <div class="container gym">
+                <h2 class="fdjs">ТРЕНАЖЕРНЫЙ<br> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; ЗАЛ</h2>
+                <div  class="bot_info">
+                    <div class="contr"><p class="str"><i class="fa fa-angle-up"></i></p></div>
+                    <p >44<br><span>тренажера</span></p>
+                    <p>72м<span class="mesure">2</span><br><span>пространства</span></p>
+                    <i class="fa fa-align-justify "></i>
+                    <p>72м<span class="mesure">2</span><br><span>пространства</span></p>
+                    <p>72м<span class="mesure">2</span><br><span>пространства</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="slide" data-anchor="slide2">
+            <div class="container gym">
+                <h2>ТРЕНАЖЕРНЫЙ<br> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; ЗАЛ</h2>
+                <div class="bot_info">
+                    <div class="contr"></div>
+                    <p>44<br><span>тренажера</span></p>
+                    <p>72м<span class="mesure">2</span><br><span>пространства</span></p>
+                    <i class="fa fa-align-justify "></i>
+                    <p>72м<span class="mesure">2</span><br><span>пространства</span></p>
+                    <p>72м<span class="mesure">2</span><br><span>пространства</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="slide" data-anchor="slide3">
+            <div class="bot_info">
+                    <div class="contr"></div>
+                    <p>44<br><span>тренажера</span></p>
+                    <p>72м<span class="mesure">2</span><br><span>пространства</span></p>
+                    <i class="fa fa-align-justify "></i>
+                    <p>72м<span class="mesure">2</span><br><span>пространства</span></p>
+                    <p>72м<span class="mesure">2</span><br><span>пространства</span></p>
+                </div>
+        </div>
+        <div class="slide" data-anchor="slide4">
+            <div class="bot_info">
+                    <div class="contr"></div>
+                    <p>44<br><span>тренажера</span></p>
+                    <p>72м<span class="mesure">2</span><br><span>пространства</span></p>
+                    <i class="fa fa-align-justify "></i>
+                    <p>72м<span class="mesure">2</span><br><span>пространства</span></p>
+                    <p>72м<span class="mesure">2</span><br><span>пространства</span></p>
+                </div>
+        </div>
+    </div>
+    <div class="section page5">
+        <div class="container_5">
+            <div class="half_3">
+                <div class="bigimg"></div>
+                <div>
+                    <h2 class="zgl">Новые гантели</h2>
+                    <div><p class="bigtext"> odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim</p><a>Читать дальше...</a></div>
+                    <p class="dateb">Дата публикации: 21 августа 2023г</p>
+
+                </div>
+            </div>
+            <div class="half_4">
+                <div class="item1">
+                    <div class="item_img1"></div>
+                    <div class="item_text1 item_text">
+                            <h2 class ='zglmin1'>Новые infyub</h2>
+                            <p class="text1">ТЕКСТ 1111</p>
+                            <p class="date1">21 Августа 2017г</p>
+                    </div>
+            </div>
+                <div class="item2">
+                    <div class="item_img2"></div>
+                    <div class="item_text2 item_text">
+                            <h2 class ='zglmin2'>Новые гантели</h2>
+                            <p class="text2"> ТЕКККСТ 2222</p>
+                            <p class="date2">21 Августа 2017г</p>
+                    </div>
+                </div>
+                <div class="item3">
+                    <div class="item_img3"></div>
+                        <div class="item_text3 item_text">
+                            <h2 class ='zglmin3'>Новые гантели</h2>
+                            <p class="text3"> ТЕКСТ 33333</p>
+                            <p class="date3">21 Августа 2017г</p>
+                        </div>
+                </div>
+                <div class="item4">
+                    <div class="item_img4"></div>
+                    <div class="item_text4 item_text">
+                        <h2 class ='zglmin4'>Новые гантели</h2>
+                        <p class="text4"> ТЕКСТ 4444</p>
+                        <p class="date4">21 Августа 20117г</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="section page6">
+        <div class="slide">
+            <div class="container coach1">
+                <div class="half_5 "><img src="images/coach1.png"></div>
+                <div class="half_6 ">
+                    <div class="coach1_name asd"><p class="coach1_name">Владимир<i class="fa fa-instagram"></i><i class="fa fa-vk"></i><br>&emsp;&emsp;Жалдыбин</p></div>
+                    <div class="midblock">
+                        <p class="halfminl"><img>Направление:<br><span>
+                            -1 <br>
+                            -2 <br>
+                            -3 <br>
+                            -1 <br>
+                            -2 <br>
+                            -3
+                        </span> </p>
+                        <p class="halfminr">
+                            <img src="" alt="">Достижения:<br><span>
+                            -1 <br>
+                            -2 <br>
+                            -3 <br>
+                            -1 <br>
+                            -2 <br>
+                            -3
+                            </span>
+                        </p>
+                    </div>
+                    <div class="coachabb"><p class="coachab"><span>O себе:</span> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque facere recusandae rem vitae voluptatibus! Adipisci animi cum distinctio dolore error eum ex laudantium odio possimus, quaerat, reiciendis, saepe sapiente vero?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consectetur dolorem doloremque doloribus ducimus eum eveniet fuga fugiat in ipsum laudantium maiores quisquam recusandae, repellendus reprehenderit saepe sequi sit tempore?Adipisci aliquid architecto cumque dolorem doloremque ducimus exercitationem, harum id ipsum iure laudantium minima natus nesciunt nulla numquam pariatur porro quas quidem quis quo repellendus saepe sequi suscipit, totam voluptates.Architecto aspernatur consectetur dicta dignissimos dolore doloribus eos error esse et facere hic id illo incidunt ipsam iste magnam maiores minima mollitia nemo nisi quisquam repudiandae sed, sint tempore veritatis.
+                        </p></div>
+                </div>
+            </div>
+        </div>
+        <div class="slide"> Slide 2 </div>
+        <div class="slide"> Slide 3 </div>
+        <div class="slide"> Slide 4 </div>
+    </div>
+    <div class="section page7">
+        <div class="container flex">
+            <div class="info">
+                <div class="adress">
+                    <p>время работы:<br><span>каждый день</span><br>8.00-22.00</p>
+                </div>
+                <div class="social">
+                    <p>мы в соц сетях: <br> <i class="fa fa-vk"></i> <i class="fa fa-instagram"></i></p>
+                </div>
+                <div class="number">
+                    <a href="tel:+7777777777">+777777777</a>
+                </div>
+            </div>
+            <div class="map">
+                <iframe class='widget_map'src="https://yandex.ru/map-widget/v1/-/CBUV4RBPhC" width="80%" height="60%" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="section page8">
+
+    </div>
+
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script type="text/javascript" src="fullpage/jquery.fullPage.min.js"></script>
+
+<script src="js/js.js"></script>
+
+
+
+<script>
+    var p;
+    p = 0;
+        $('.contr').on('click', function () {
+        if (p==0){
+            $('.bot_info').removeClass('inactive');
+            $('.bot_info').addClass('active_bot');
+            $('.bot_info').css('positon','absolute');
+            $('.str').css('transform','rotate(360deg)');
+            $('.fp-controlArrow').fadeOut();
+            $('.fdjs').css('display','none');
+            $('.gym').css('justify-content','flex-end')
+
+            p = 1;
+
+        } else{
+            $('.bot_info').removeClass('active_bot');
+            $('.bot_info').addClass('inactive');
+            $('.str').css('transform','rotate(180deg)')
+            $('.fp-controlArrow').fadeIn();
+            $('.fdjs').css('display','block');
+            $('.fdjs').fadeIn();
+            $('.gym').css('justify-content','space-between')
+
+            p = 0;
+        }
+        })
+</script>
+<script>
+
+$('.item1').click(function () {
+    var p;
+    if (~$(this).attr('class').indexOf('1')){
+        p = '1'
+    }
+    if (~$(this).attr('class').indexOf('2')){
+        p = '2'
+    }
+    if (~$(this).attr('class').indexOf('3')){
+        p = '3'
+    }
+    if (~$(this).attr('class').indexOf('4')){
+        p = '4'
+    }
+    $('.half_3 div').fadeOut();
+    function pause(delay) {
+  var startTime = Date.now();
+
+  while (Date.now() - startTime < delay);
+}
+
+    pause(300)
+    var img = $('.item_img'+p).css('background-image');
+    $('.bigimg').css('background-image',img);
+    var dateb = $('.date'+p).html();
+    var zgl = $('.zglmin'+p).html();
+    var bigtext=$('.text'+p).html();
+    $('.dateb').html(dateb)
+    $('.zgl').html(zgl)
+    $('.bigtext').html(bigtext)
+
+
+    $('.half_3 div').fadeIn();
+})
+$('.item2').click(function () {
+    var p;
+    if (~$(this).attr('class').indexOf('1')){
+        p = '1'
+    }
+    if (~$(this).attr('class').indexOf('2')){
+        p = '2'
+    }
+    if (~$(this).attr('class').indexOf('3')){
+        p = '3'
+    }
+    if (~$(this).attr('class').indexOf('4')){
+        p = '4'
+    }
+    $('.half_3 div').fadeOut();
+    function pause(delay) {
+  var startTime = Date.now();
+
+  while (Date.now() - startTime < delay);
+}
+
+    pause(300)
+    var img = $('.item_img'+p).css('background-image');
+    $('.bigimg').css('background-image',img);
+    var dateb = $('.date'+p).html();
+    var zgl = $('.zglmin'+p).html();
+    var bigtext=$('.text'+p).html();
+    $('.dateb').html(dateb)
+    $('.zgl').html(zgl)
+    $('.bigtext').html(bigtext)
+
+
+    $('.half_3 div').fadeIn();
+})
+$('.item3').click(function () {
+    var p;
+    if (~$(this).attr('class').indexOf('1')){
+        p = '1'
+    }
+    if (~$(this).attr('class').indexOf('2')){
+        p = '2'
+    }
+    if (~$(this).attr('class').indexOf('3')){
+        p = '3'
+    }
+    if (~$(this).attr('class').indexOf('4')){
+        p = '4'
+    }
+    $('.half_3 div').fadeOut();
+    function pause(delay) {
+  var startTime = Date.now();
+
+  while (Date.now() - startTime < delay);
+}
+
+    pause(300)
+    var img = $('.item_img'+p).css('background-image');
+    $('.bigimg').css('background-image',img);
+    var dateb = $('.date'+p).html();
+    var zgl = $('.zglmin'+p).html();
+    var bigtext=$('.text'+p).html();
+    $('.dateb').html(dateb)
+    $('.zgl').html(zgl)
+    $('.bigtext').html(bigtext)
+
+
+    $('.half_3 div').fadeIn();
+})
+$('.item4').click(function () {
+    var p;
+    if (~$(this).attr('class').indexOf('1')){
+        p = '1'
+    }
+    if (~$(this).attr('class').indexOf('2')){
+        p = '2'
+    }
+    if (~$(this).attr('class').indexOf('3')){
+        p = '3'
+    }
+    if (~$(this).attr('class').indexOf('4')){
+        p = '4'
+    }
+    $('.half_3 div').fadeOut();
+    function pause(delay) {
+  var startTime = Date.now();
+
+  while (Date.now() - startTime < delay);
+}
+
+    pause(300)
+    var img = $('.item_img'+p).css('background-image');
+    $('.bigimg').css('background-image',img);
+    var dateb = $('.date'+p).html();
+    var zgl = $('.zglmin'+p).html();
+    var bigtext=$('.text'+p).html();
+    $('.dateb').html(dateb)
+    $('.zgl').html(zgl)
+    $('.bigtext').html(bigtext)
+
+
+    $('.half_3 div').fadeIn();
+})
+</script>
+<script>
+    var p;
+    p=1;
+
+    setInterval(function () {
+        if ($('.page1').hasClass('active')) {
+            $('.menu_container').removeClass('mobile')
+            $('.menu_mob').addClass('mobile')
+
+        }
+        else {
+            $('.menu_container').addClass('mobile')
+            $('.menu_mob').removeClass('mobile')
+
+        }
+    }, 100);
+    $('button').click(function() {
+        var p=1;
+        $(this).toggleClass('clicked');
+
+        if ($('button').hasClass('clicked')){
+            $('.menu_container').addClass('full');
+            $('#mainMenu').css('align-items','center')
+
+        }
+        else{
+            $('.menu_container').removeClass('full');
+        }
+        $('.menu__a').click(function () {
+            if ($(".menu_container").hasClass('full')){
+                $('.menu_container').removeClass('full')
+            }
+
+        })
+
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+.coach1{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.half_5, .half_6{
+    flex-basis: 350px;
+
+}
+.half_5{
+    flex-grow: 6;
+    display: flex;
+
+}
+.half_6{
+    flex-grow: 7;
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+
+
+}
+.half_5 > img{
+    width:90%;
+    height: auto;
+    margin: auto 50px;
+}
+.coach1_name{
+    font-family:'micra bold';
+    font-size:60px;
+    color: white;
+    flex-grow: 1;
+    white-space: nowrap;
+    margin: auto;
+}
+.coach1_name.asd{
+    margin-top: 10%;
+}
+.midblock{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 2;
+    justify-content: space-between;
+    align-items: flex-start ;
+    margin-top: 10%;
+}
+.coachab{
+    width: 100%;
+    margin: auto;
+
+
+}
+.coachabb{
+    display: flex;
+    flex-grow: 2;
+}
+.coach1_name > i {
+    color: white;
+    width: 60px;
+    min-width: 70px;
+}
+.coach1_name.asd{
+    display: flex;
+}
+.halfminl, .halfminr{
+    font-size:30px;
+}
+.halfminl > span{
+    font-size: 25px;
+}
+.halfminr> span{
+    font-size: 25px;
+}
+.halfminr{
+    margin-right: 10%;
+}
+.coachab span{
+    width: 100%;
+    margin: auto;
+    font-size:30px;
+}
+
+
+
