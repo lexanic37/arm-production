@@ -49,7 +49,7 @@
 
 <video id="bgvid" playsinline autoplay muted loop>
   <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-<source src="https://cs509104.vkuservideo.net/5/u72056389/videos/d699abdd90.480.mp4?extra=Yx-xABB_78jJs6D4677Cz9cyuovDK6FNw_4cI9lumYctfDntwKcdlljB5b_gS-uA2mmVxfMi6v8gh9P2s7BL55Gma-T63zLyIbuFtlv9dBcefxofYuEjFLUBtZRsWGI-noYfuxFYTASBSgA" type="video/webm">
+<source src="https://cs509104.vkuservideo.net/5/u72056389/videos/182c06ab1b.720.mp4?extra=E7RCaJe3JFqM4_mLQ68cLktiE5Z1PO1jMWgqZz0071S_t42RspgpQc-hme3KSDW9XySvsqQhxSOeFwlkyLBPLqct0X7RQaLq8SpVHOpmn3DAMbSwEJ0ERDxx7z7F3P1iUeoN22cC5AUIR_4p" type="video/webm">
 <source src="" type="video/mp4">
 </video>
 <div class="menu_container">
@@ -140,7 +140,7 @@
         <div class="slide" data-anchor="slide1">
             <div class="container gym">
                 <h2 class="fdjs">ТРЕНАЖЕРНЫЙ<br> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; ЗАЛ</h2>
-                <div  class="bot_info">
+                <div  class="bot_info inactive">
                     <div class="contr"><p class="str"><i class="fa fa-angle-up"></i></p></div>
                     <p >44<br><span>тренажера</span></p>
                     <p>72м<span class="mesure">2</span><br><span>пространства</span></p>
@@ -304,28 +304,28 @@
     var p;
     p = 0;
         $('.contr').on('click', function () {
-        if (p==0){
-            $('.bot_info').removeClass('inactive');
-            $('.bot_info').addClass('active_bot');
-            $('.bot_info').css('positon','absolute');
-            $('.str').css('transform','rotate(360deg)');
-            $('.fp-controlArrow').fadeOut();
-            $('.fdjs').css('display','none');
-            $('.gym').css('justify-content','flex-end')
+            if (p==0){
+                $('.bot_info').css('positon','absolute');
+                $('.bot_info').removeClass('inactive');
+                $('.bot_info').addClass('active_bot');
+                $('.str').css('transform','rotate(360deg)');
+                $('.fp-controlArrow').fadeOut();
+                $('.fdjs').css('display','none');
+                $('.gym').css('justify-content','flex-end')
 
-            p = 1;
+                p = 1;
 
-        } else{
-            $('.bot_info').removeClass('active_bot');
-            $('.bot_info').addClass('inactive');
-            $('.str').css('transform','rotate(180deg)')
-            $('.fp-controlArrow').fadeIn();
-            $('.fdjs').css('display','block');
-            $('.fdjs').fadeIn();
-            $('.gym').css('justify-content','space-between')
+            } else{
+                $('.bot_info').removeClass('active_bot');
+                $('.bot_info').addClass('inactive');
+                $('.str').css('transform','rotate(180deg)')
+                $('.fp-controlArrow').fadeIn();
+                $('.fdjs').css('display','block');
+                $('.fdjs').fadeIn();
+                $('.gym').css('justify-content','space-between')
 
-            p = 0;
-        }
+                p = 0;
+            }
         })
 </script>
 <script>
@@ -498,6 +498,7 @@ $('.item4').click(function () {
         $('.menu__a').click(function () {
             if ($(".menu_container").hasClass('full')){
                 $('.menu_container').removeClass('full')
+                $('button').toggleClass('clicked')
             }
 
         })
