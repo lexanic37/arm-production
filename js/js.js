@@ -2,6 +2,9 @@ $('#fullpage').fullpage({anchors:['onePage', 'twoPage', 'threePage', 'forPage', 
   animateAnchor: false,
   scrollBar:false,
   lazyLoading:false,
+  fadingEffect: true,
+
+
   menu: '#mainMenu'});
 
 

@@ -1,25 +1,51 @@
-@media all and (min-width: 768px) {
-    .fullpage-wrapper {
-        width: 100%;
-        transform: none;
-    }
-
-    .fp-section {
-        width: 100%;
-        position: absolute;
-        left: 0;
-        top: 0;
-        visibility: hidden;
-        opacity: 0;
-        -webkit-transition: all 1.2s ease-in-out;
-        -moz-transition: all 1.2s ease-in-out;
-        -ms-transition: all 1.2s ease-in-out;
-        -o-transition: all 1.2s ease-in-out;
-        transition: all 1.2s ease-in-out;
-    }
-
-    .fp-section.active {
-        visibility: visible;
-        opacity: 1;
-    }
+.vr,.br{
+    display: none;
 }
+body{
+    margin: 0;
+}
+.logocontainer{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.logo{
+    margin: 0;
+    font-size:18vw;
+    text-align: center;
+    line-height: 0.9;
+}
+.logocontainer p{
+    margin: 10px auto;
+    text-align: center;
+}
+.button{
+    position: static;
+}
+.questionconteiner{
+    margin-right: 0;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding: 0 30px;
+    font-size:17px;
+}
+.questionconteiner div{
+    margin-top: 0;
+    margin-right: 0;
+    text-align: left;
+    height: auto;
+}
+
+.button{
+    margin: 0 auto;
+    width: 300px;
+    height: 50px;
+    position: static;
+    margin-left: 0;
+
+}
+.page1{
+    height: 100vh;
+}
+
