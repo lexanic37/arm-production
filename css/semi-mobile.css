@@ -1,0 +1,58 @@
+@media  (max-width: 1600px) {
+    .advantage p{
+        font-size:18px;
+    }
+    .half_1 > .logo{
+        top:5%;
+    }
+    .aboutbot,.abouttop{
+        font-size:18px;
+    }
+    .adress p{
+        font-size:48px;
+    }
+    .social p{
+        font-size:48px;
+    }
+    .number a{
+        font-size:48px;
+    }
+}
+@media  (max-width: 1366px) {
+    .advantage p{
+        font-size: 16px;
+    }
+    .half_1 > .logo{
+        top:4.5%;
+    }
+    .questionconteiner div{
+        margin-top: 75px;!important;
+
+    }
+}
+@media  (max-width: 1280px) {
+    .advantage p{
+        font-size:14px;
+    }
+    .half_1 > .logo{
+        top:4%;
+    }
+}
+@media  (max-width: 1024px) {
+    .advantage p{
+        font-size:12px;
+    }
+    .advantage h3{
+        font-size:15px;
+    }
+    .half_1 > .logo{
+        top:3.5%;
+        padding-left: 30px;
+
+
+        font-size:56px;
+    }
+    .abouttop{
+        margin-top: 40px;
+    }
+}

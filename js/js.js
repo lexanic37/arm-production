@@ -9,3 +9,4 @@ $('#fullpage').fullpage({anchors:['onePage', 'twoPage', 'threePage', 'forPage', 
 
 
 $.fn.fullpage.setScrollingSpeed(1200)
+

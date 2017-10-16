@@ -47,14 +47,13 @@
      <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="js/prefixfree.min.js"></script>
     <link rel="stylesheet" href="css/menubut.css">
-
-
+    <link rel="stylesheet" href="css/semi-mobile.css">
 </head>
 <body>
 
 <video id="bgvid" playsinline autoplay muted loop>
   <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-<source src="https://cs509104.vkuservideo.net/5/u72056389/videos/d699abdd90.480.mp4?extra=Yx-xABB_78jJs6D4677Cz9cyuovDK6FNw_4cI9lumYctfDntwKcdlljB5b_gS-uA2mmVxfMi6v8gh9P2s7BL55Gma-T63zLyIbuFtlv9dBcefxofYuEjFLUBtZRsWGI-noYfuxFYTASBSgA" type="video/webm">
+<source src="https://cs509104.vkuservideo.net/5/u72056389/videos/f57b7f5f00.720.mp4?extra=4RMdhqRuJhDrj8JYiX5LVqrAWitDlJdIm4PKo1fFYMp07cHFPTY2END1UQ_KMtR-sShAqlUSzSCYdFO1eTw2r2KsAYDrA7G6Wm971bIvO3L3NTX2KVYrD6RUrr3p2YcT5ICnusffxkpJHzow" type="video/webm">
 <source src="" type="video/mp4">
 </video>
 <div class="menu_container">
@@ -97,7 +96,7 @@
 
                 <div class="brb"></div>
                 <h3>Современное оборудование</h3>
-                <p>Odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+                <p >Odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
             </div>
             <div class="vrb"></div>
             <div class="advantage">
@@ -107,7 +106,7 @@
                 </div>
                 <div class="brb"></div>
                 <h3>Современное оборудование</h3>
-                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.z</p>
+                <p >This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.z</p>
             </div>
             <div class="vrb"></div>
             <div class="advantage">
@@ -145,7 +144,7 @@
         <div class="slide" data-anchor="slide1">
             <div class="container gym">
                 <h2 class="fdjs">ТРЕНАЖЕРНЫЙ<br> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; ЗАЛ</h2>
-                <div  class="bot_info">
+                <div  class="bot_info inactive">
                     <div class="contr"><p class="str"><i class="fa fa-angle-up"></i></p></div>
                     <p >44<br><span>тренажера</span></p>
                     <p>72м<span class="mesure">2</span><br><span>пространства</span></p>
@@ -292,7 +291,7 @@
             </div>
         </div>
     </div>
-    <div class="section page8">
+
 
     </div>
 
@@ -308,28 +307,28 @@
     var p;
     p = 0;
         $('.contr').on('click', function () {
-        if (p==0){
-            $('.bot_info').removeClass('inactive');
-            $('.bot_info').addClass('active_bot');
-            $('.bot_info').css('positon','absolute');
-            $('.str').css('transform','rotate(360deg)');
-            $('.fp-controlArrow').fadeOut();
-            $('.fdjs').css('display','none');
-            $('.gym').css('justify-content','flex-end')
+            if (p==0){
+                $('.bot_info').css('positon','absolute');
+                $('.bot_info').removeClass('inactive');
+                $('.bot_info').addClass('active_bot');
+                $('.str').css('transform','rotate(360deg)');
+                $('.fp-controlArrow').fadeOut();
+                $('.fdjs').css('display','none');
+                $('.gym').css('justify-content','flex-end')
 
-            p = 1;
+                p = 1;
 
-        } else{
-            $('.bot_info').removeClass('active_bot');
-            $('.bot_info').addClass('inactive');
-            $('.str').css('transform','rotate(180deg)')
-            $('.fp-controlArrow').fadeIn();
-            $('.fdjs').css('display','block');
-            $('.fdjs').fadeIn();
-            $('.gym').css('justify-content','space-between')
+            } else{
+                $('.bot_info').removeClass('active_bot');
+                $('.bot_info').addClass('inactive');
+                $('.str').css('transform','rotate(180deg)')
+                $('.fp-controlArrow').fadeIn();
+                $('.fdjs').css('display','block');
+                $('.fdjs').fadeIn();
+                $('.gym').css('justify-content','space-between')
 
-            p = 0;
-        }
+                p = 0;
+            }
         })
 </script>
 <script>
@@ -502,6 +501,7 @@ $('.item4').click(function () {
         $('.menu__a').click(function () {
             if ($(".menu_container").hasClass('full')){
                 $('.menu_container').removeClass('full')
+                $('button').toggleClass('clicked')
             }
 
         })

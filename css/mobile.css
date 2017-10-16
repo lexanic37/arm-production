@@ -1,4 +1,4 @@
-.vr,.br{
+.vr,.br, .vrb, .half_2{
     display: none;
 }
 body{
@@ -17,7 +17,8 @@ body{
     line-height: 0.9;
 }
 .logocontainer p{
-    margin: 10px auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
 }
 .button{
@@ -29,6 +30,7 @@ body{
     margin-bottom: 10vh;
     padding: 0 30px;
     font-size:17px;
+
 }
 .questionconteiner div{
     margin-top: 0;
@@ -38,14 +40,177 @@ body{
 }
 
 .button{
-    margin: 0 auto;
+    margin: auto auto;
     width: 300px;
-    height: 50px;
+    text-align: center;
+    color:white;
+    height: auto;
     position: static;
     margin-left: 0;
+    display:inline-block;
+    margin-top: 15vh;
 
 }
 .page1{
     height: 100vh;
 }
 
+.section{
+    opacity: 1;
+
+
+}
+
+.container.flex{
+    flex-direction:column;
+}
+.advantage{
+    flex-direction:column;
+
+    text-align: justify;
+}
+.page2,.page3{
+    height: auto;
+}
+.text_container{
+    position:static;
+    background: none;
+}
+.half_1 > .logo{
+    position: static;
+    margin: 0 auto
+}
+.aboutbot, .abouttop{
+    margin:0;
+}
+
+.aboutbot{
+    text-align: end;
+    width:100%;
+    margin-top: 50px;
+
+}
+.page3{
+    padding-left:18px;
+    padding-right: 18px;
+
+}
+.abouttop{
+     text-align: start;
+     width:100%;
+     margin-bottom: 30px;
+
+ }
+.logo.small{
+    font-size:17vw;
+    margin:0;
+    box-sizing: border-box;
+    margin: 50px 0;
+}
+.zona{
+    width:100vw;
+    height:55vw;
+    background-size: cover;
+    background-position: center;
+
+}
+.zone_1{
+    background-image: url(../images/4slbggym.jpg);
+
+}
+.zone_2{
+    background: white;
+}
+.zone_4{
+    background: white;
+}
+.half_4 >div{
+    margin-bottom: 10px;
+}
+.item_text > h2{
+    font-size:30px;
+}
+.half_4{
+    flex-basis: 100%;
+}
+.item1,.item2,.item3,.item4{
+    justify-content: center;
+}
+.item_text{
+    margin-left: 0;
+}
+.item1:hover{
+    transform: none;
+}
+.item2:hover{
+    transform: none;
+}
+.item3:hover{
+    transform: none;
+}
+.item4:hover{
+    transform: none;
+}
+.slide{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.slides{
+    height: 100%;
+}
+.slide1{
+
+}
+.slide2{
+
+}
+
+.slider{
+    height:100vh;
+}
+.coach_name{
+    font-size:7vw;
+    font-family:'micra bold';
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.button.coach{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.slides img{
+    width: 30px;
+    height: auto;
+}
+.adress p{
+    font-size:60px;
+}
+.social p {
+    font-size:60px;
+    margin-bottom: 5px;
+}
+.social i {
+    font-size:60px;
+}
+.number a{
+    font-size:60px;
+    color: white;
+    text-decoration: none;
+}
+.page7{
+    height: 150vh;
+}
+.info{
+    height: 300px;
+    flex-basis: 75%;
+}
+.adress span{
+    margin-bottom: 20px;
+}
