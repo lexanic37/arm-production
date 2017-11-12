@@ -22,7 +22,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 65%;
+
 
 
 }
@@ -36,7 +36,7 @@
 }
 .menu__a{
     background-color: transparent;
-    opacity: 0.5 ;
+    opacity: 0.8 ;
     font-size: 20px;
     color: #ffffff;
     font-family: 'play';
@@ -45,8 +45,11 @@
     -ms-transition: all .9s;
     -o-transition: all .9s;
     transition: all .9s;
+    white-space: nowrap;
 }
-
+.pcont{
+    margin-bottom: 20px;
+}
 
 /** menu in top **/
 .logocontainer{

@@ -29,6 +29,7 @@
     width:90%;
     height: auto;
     margin: auto 50px;
+    min-width:400px;
 }
 .coach1_name{
     font-family:'micra bold';

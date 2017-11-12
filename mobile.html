@@ -33,30 +33,40 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2">
-    <link href="http://allfont.ru/allfont.css?fonts=micra-bold" rel="stylesheet" type="text/css" >
+    <link href="http://allfont.ru/allfont.css?fonts=micra-bold" rel="stylesheet" type="text/css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/menubut.css">
-    <script src="./js/wow.min.js"></script>
     <link rel="stylesheet" href="css/slider-css.css">
     <script src="js/slider.js"></script>
     <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
+<div class="modal writer">
 
-<div class="menu_container">
-    <ul id="mainMenu">
-        <li class="menu__li" data-menuanchor="onePage" class="active"><a class="menu__a" href="#onePage">ГЛАВНАЯ
-        </a></li>
-        <li class="menu__li" data-menuanchor="twoPage"><a class="menu__a" href="#twoPage">О НАС</a></li>
-        <li class="menu__li" data-menuanchor="threePage"><a class="menu__a" href="#threePage">ТРЕНЕР</a></li>
-        <li class="menu__li" data-menuanchor="forPage"><a class="menu__a" href="#forPage">РАСПИСАНИЕ</a></li>
-        <li class="menu__li" data-menuanchor="fifthPage"><a class="menu__a" href="#fifthPage">ГДЕ?</a></li>
-    </ul>
+    <form class='writerform'action="#">
+        <label for="fname">Ваше имя</label>
+        <input class='wrinput' type="text" id="fname" name="firstname" placeholder="Иванов Иван Иванович">
+        <label for="lname">Номер телефона</label>
+        <input class='wrinput' type="text" id="lname" name="lastname" placeholder="81234561234">
+        <label for="coment">Сообщение</label>
+        <textarea class='wrinput' type="text" id="coment" name="coment" placeholder="Я хочу начать занимать ..."></textarea>
+        <input class='wrinput' type="submit" value="Submit">
+    </form>
+    <i class="fa fa-close fa-2x"></i>
+
 </div>
-<button><span>Menu</span></button>
-
+<div class="modal aboutzone1">
+    <h2>А теперь подробнее</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eos necessitatibus rem. Accusantium corporis delectus deserunt ex, iure libero modi necessitatibus officia quia soluta suscipit totam voluptas voluptatem? Ab, accusamus architecto asperiores autem commodi dignissimos doloremque dolores earum enim est eum hic labore maxime modi necessitatibus nemo nobis obcaecati praesentium provident quasi quis sit tenetur totam ut voluptas. Alias architecto aspernatur, assumenda at cupiditate eligendi eveniet explicabo facere magni minus molestiae nemo officiis perspiciatis provident quasi quod sapiente sequi, tempora, vero voluptates. Alias at, enim facilis fuga nostrum rem? Atque culpa, incidunt nesciunt repellendus sint voluptatibus! Atque inventore neque odit placeat provident unde. Alias amet atque commodi corporis dolores, eligendi explicabo hic impedit magnam modi nesciunt, numquam officia placeat quidem quo sequi suscipit tempora veniam voluptas voluptatibus? A alias corporis dolorem eligendi error esse explicabo impedit nesciunt sapiente sed. Ab alias atque culpa deleniti distinctio eveniet laudantium officiis placeat suscipit. Alias blanditiis consequuntur distinctio earum eius fugit labore magni, minima neque nostrum, quae quasi repellendus soluta vel veniam veritatis voluptatum? Adipisci alias asperiores aspernatur at deleniti, dolorum ducimus, esse excepturi harum in incidunt iste iusto laborum laudantium molestiae mollitia natus numquam obcaecati perspiciatis praesentium provident quasi quisquam veniam voluptas, voluptatum.</p>
+    <i class="fa fa-close fa-2x"></i>
+</div>
+<div class="modal news">
+    <h2 class="m zgl"></h2>
+    <div class="box_in"><p class="m bigtext"></p></div>
+    <p class="m dateb"></p>
+    <i class="fa fa-close fa-2x"></i>
+</div>
     <div class="section page1">
-        <center class="container">
+        <div class="container">
             <div class="logocontainer">
                 <div class="br"></div>
                 <h1  class="logo">ARM<br>SPORT</h1>
@@ -75,20 +85,18 @@
     </div>
     <div class="section page2">
         <div class="container flex">
-            <div class="advantage">
+            <div id='advant0'class="advantage">
                 <div class="icon_container">
                     <img class="white_icon" src="images/icons/icon1.png">
                     <img class="black_icon" src="images/icons/iconb1.png">
                 </div>
-
                 <div class="brb"></div>
-
                 <h3>Современное оборудование</h3>
                 <p>Odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
 
             </div>
             <div class="vrb"></div>
-            <div class="advantage">
+            <div id="advant1" class="advantage">
                 <div class="icon_container">
                     <img class="white_icon" src="images/icons/icon2.png">
                     <img class="black_icon" src="images/icons/iconb2.png">
@@ -98,7 +106,7 @@
                 <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.z</p>
             </div>
             <div class="vrb"></div>
-            <div class="advantage">
+            <div id="advant2" class="advantage">
                 <div class="icon_container">
                     <img class="white_icon"src="images/icons/icon3.png">
                     <img class="black_icon" src="images/icons/iconb3.png">
@@ -123,10 +131,10 @@
         </div>
     </div>
     <div class="section page4">
-        <div  class="zona zone_1 wow slideInUp"></div>
-        <div  class="zona zone_2 wow slideInUp"></div>
-        <div  class="zona zone_3 wow slideInUp"></div>
-        <div  class="zona zone_4 wow slideInUp"></div>
+        <div  class="zona zone_1 "></div>
+        <div  class="zona zone_2 "></div>
+        <div  class="zona zone_3 "></div>
+        <div  class="zona zone_4 "></div>
     </div>
     <div class="section page5">
         <div class="container_5">
@@ -207,6 +215,8 @@
 
 
 
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
 
 <script>
     var p;
@@ -395,6 +405,7 @@
         var p=1;
         $(this).toggleClass('clicked');
 
+
         if ($('button').hasClass('clicked')){
             $('.menu_container').addClass('full');
             $('#mainMenu').css('align-items','center')
@@ -538,6 +549,79 @@
 
     })(window, document);
 </script>
+<script>
+        $('.modal').fadeOut()
+        $('#button').click(function () {
+                var open = false
+                if (open){
+                    $('.modal.writer').fadeOut()
+                    open = false
 
+                }
+                else{
+                    $('.modal.writer').fadeIn()
+                    open = true
+                }
+            }
+        )
+
+
+        $('.show_more').click(function () {
+
+                var open = false
+                if (open){
+                    $('.modal.news').fadeOut()
+                    open = false
+
+                }
+                else{
+                    var changer = $('.b.zgl').html()
+                    alert(changer)
+                    $('.m.zgl').html(changer)
+                    changer = $('.b.bigtext').html()
+                    $('.m.bigtext').html(changer)
+                    changer = $('.b.dateb').html().replace('<a class="show_more" href="#">Читать дальше...</a>', '')
+                    $('.m.dateb').html(changer)
+                    $('.modal.news').fadeIn()
+                    open = true
+                }
+            }
+        )
+
+        $('.fa.fa-align-justify').click(function () {
+                var open = false
+                if (open){
+                    $('.modal.aboutzone1').fadeOut()
+                    open = false
+                }
+                else{
+                    $('.modal.aboutzone1').fadeIn()
+                    open = true
+                }
+            }
+        )
+
+        $('.fa-close').click(function () {
+            $('.modal').fadeOut()
+        })
+        $('.wrinput[type=submit]').click(function () {
+            $('.modal').fadeOut()
+        })
+
+    </script>
+<script>
+
+    var controller = new ScrollMagic.Controller();
+    var Scene = new ScrollMagic.Scene({
+        triggerElement: '#advant0'
+    })
+    .on('finish', function(){
+
+    })
+    .setClassToggle('#advant0','fade-in')
+    .addTo(controller)
+
+
+</script>
 </body>
 </html>

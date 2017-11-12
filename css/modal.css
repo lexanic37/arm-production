@@ -1,0 +1,61 @@
+.modal{
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    background-color: black;
+    padding: 0px 20% 20px 20%;
+    box-sizing: border-box;
+    z-index: 10000;
+
+}
+.writer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mzgl{
+    text-align: center;
+    font-size:40px;
+}
+.mtext{
+    font-size:2vw;
+}
+
+.wrinput[type=text]{
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     display: inline-block;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     font-size:20px;
+
+ }
+
+.wrinput[type=submit] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size:20px;
+    text-transform: uppercase;
+}
+
+.wrinput[type=submit]:hover {
+    background-color: white;
+    color: black;
+    transition: all .9s;
+}
+.fa-close{
+    color: white;
+    position: absolute;
+    top:10px;
+    right:-8%;
+}
+
+

@@ -1,4 +1,4 @@
-$('#fullpage').fullpage({anchors:['onePage', 'twoPage', 'threePage', 'forPage', 'fifthPage'],
+$('#fullpage').fullpage({anchors:['Page', 'secondPage', 'thirdPage', 'fourPage', 'fifthPage','sixthPage','seventhPage'],
   animateAnchor: false,
   scrollBar:false,
   lazyLoading:false,

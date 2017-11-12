@@ -23,7 +23,7 @@
     width: 90%;
     margin: 0 50px;
     height: 20%;
-    background-color: rgba(255, 255, 255, 0.81);
+    background-color: rgba(255, 255, 255, 1);
     flex-shrink: 0;
     flex-basis: 20%;
 
@@ -133,4 +133,27 @@
 }
 .text1, .text2, .text3, .text4{
     display:none;
+}
+
+.box {
+    overflow: hidden;
+
+    width: 90%;
+}
+
+.box__in {
+    -webkit-column-width: 150px;
+    -moz-column-width: 150px;
+    column-width: 150px;
+    height: 100%;
+}
+#show_desc{
+    height: 24vh;
+    margin-right: 0;
+    text-align: justify;
+
+}
+.show_more{
+    text-align: start;
+    align-self: flex-start;
 }

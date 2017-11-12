@@ -37,8 +37,43 @@
     .half_1 > .logo{
         top:4%;
     }
+    .coach1_name{
+        font-size:40px;
+        margin: 15px auto;
+        flex-grow:0;
+    }
+    .halfminr,.halfminl{
+        font-size:20px;
+    }
+    .halfminr> span {
+        font-size: 18px;
+    }
+    .halfminl> span {
+        font-size: 18px;
+    }
+    .coachab span{
+        font-size:21px;
+    }
+    .coachabb{
+        font-size:15px;
+        flex-grow: 0;
+    }
+    .midblock{
+        margin-top: 0;
+        height:  210px;
+        flex-grow: 0;
+    }
+    .half_6{
+        justify-content: flex-start;
+    }
+    .pcont{
+        margin-top: 30px;
+    }
 }
 @media  (max-width: 1024px) {
+    .half_6{
+        justify-content: flex-start;
+    }
     .advantage p{
         font-size:12px;
     }
@@ -48,11 +83,37 @@
     .half_1 > .logo{
         top:3.5%;
         padding-left: 30px;
-
-
         font-size:56px;
     }
     .abouttop{
         margin-top: 40px;
     }
+    .coach1_name{
+        font-size:35px;
+        margin: 15px auto;
+        flex-grow:0;
+    }
+    .halfminr,.halfminl{
+        font-size:18px;
+    }
+    .halfminr> span {
+        font-size: 15px;
+    }
+    .halfminl> span {
+        font-size: 15px;
+    }
+    .coachab span{
+        font-size:18px;
+    }
+    .coachabb{
+        font-size:13px;
+        flex-grow: 0;
+    }
+    .midblock{
+        margin-top: 0;
+        height:  200px;
+        flex-grow: 0;
+    }
+
+
 }

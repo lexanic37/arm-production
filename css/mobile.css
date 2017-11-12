@@ -214,3 +214,19 @@ body{
 .adress span{
     margin-bottom: 20px;
 }
+.logocontainer{margin-top: 0px}
+.clickedd{
+    margin-top: -150px;
+}
+.page1{
+    padding-top: 35px;
+}
+
+.fade-in{
+    background-color: white;
+    transition: all 1s ease-out;
+}
+.half_4 >div{
+    width: 100%;
+    border-radius: 0;
+}
