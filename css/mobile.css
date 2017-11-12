@@ -225,8 +225,12 @@ body{
 .fade-in{
     background-color: white;
     transition: all 1s ease-out;
+    color: black;
 }
 .half_4 >div{
     width: 100%;
     border-radius: 0;
+}
+.fa-close{
+    right: -2%;
 }
