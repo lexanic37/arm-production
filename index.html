@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <script type="text/javascript">
-        if(screen.width < 767)
-        location="./mobile.html";
+        setInterval(function () {
+        if(window.innerWidth < 968)
+        location="./mobile.html"})
     </script>
 
     <meta charset="UTF-8">
@@ -15,13 +16,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords" content="Тейково,fight,mafia,мма тейково,мма,mma,спорт,бои">
-
     <link rel="stylesheet" href="fullpage/jquery.fullPage.css">
-
-
-
-    <!-- Сustom css!.-->
-
+ <!-- Сustom css!.-->
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/1slide.css">
     <link rel="stylesheet" href="css/2slide.css">
@@ -34,7 +30,6 @@
     <link rel="stylesheet" href="css/bgivedeo.css">
     <link rel="stylesheet" href="css/bootstrap/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap/animate.css">
-
     <!--fonts!-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
@@ -43,8 +38,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2">
-      <link href="http://allfont.ru/allfont.css?fonts=micra-bold" rel="stylesheet" type="text/css" >
-     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link href="http://allfont.ru/allfont.css?fonts=micra-bold" rel="stylesheet" type="text/css" >
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="js/prefixfree.min.js"></script>
     <link rel="stylesheet" href="css/menubut.css">
 
@@ -53,9 +48,10 @@
 
 </head>
 <body>
-<div class="modal writer">
 
-    <form class='writerform'action="#">
+
+<div class="modal writer">
+    <form class='writerform' action="#">
         <label for="fname">Ваше имя</label>
         <input class='wrinput' type="text" id="fname" name="firstname" placeholder="Иванов Иван Иванович">
         <label for="lname">Номер телефона</label>
@@ -82,7 +78,7 @@
 
 <video id="bgvid" playsinline autoplay muted loop>
   <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-<source src="https://cs509104.vkuservideo.net/5/u72056389/videos/f57b7f5f00.720.mp4?extra=4RMdhqRuJhDrj8JYiX5LVqrAWitDlJdIm4PKo1fFYMp07cHFPTY2END1UQ_KMtR-sShAqlUSzSCYdFO1eTw2r2KsAYDrA7G6Wm971bIvO3L3NTX2KVYrD6RUrr3p2YcT5ICnusffxkpJHzow" type="video/webm">
+<source src="./images/Untitledfull.mp4" type="video/webm">
 <source src="" type="video/mp4">
 </video>
 <div class="menu_container">
@@ -172,7 +168,7 @@
     </div>
     <div class="section page4">
         <div class="slide" data-anchor="slide1">
-            <div class="container gym">
+            <div class="container gym ">
                 <h2 class="fdjs">ТРЕНАЖЕРНЫЙ<br> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; ЗАЛ</h2>
                 <div  class="bot_info inactive">
                     <div class="contr"><p class="str"><i class="fa fa-angle-up"></i></p></div>
@@ -186,7 +182,7 @@
         </div>
         <div class="slide" data-anchor="slide2">
             <div class="container gym">
-                <h2>ТРЕНАЖЕРНЫЙ<br> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; ЗАЛ</h2>
+                <h2 >ТРЕНАЖЕРНЫЙ<br> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; ЗАЛ</h2>
                 <div class="bot_info">
                     <div class="contr"></div>
                     <p>44<br><span>тренажера</span></p>

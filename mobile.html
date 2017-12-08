@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <script type="text/javascript">
-        if(screen.width >= 767)
+        setInterval(function () {
+            if(window.innerWidth>= 968)
             location="./index.html";
+        },100);
     </script>
     <meta charset="UTF-8">
     <title>ARM SPORT</title>
@@ -35,12 +37,18 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2">
     <link href="http://allfont.ru/allfont.css?fonts=micra-bold" rel="stylesheet" type="text/css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/slider-css.css">
-    <script src="js/slider.js"></script>
     <link rel="stylesheet" href="css/modal.css">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/Bootsrap-carousel.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
     <link rel="stylesheet" href="css/mobile.css">
+
+
 </head>
 <body>
+
 <div class="modal writer">
 
     <form class='writerform'action="#">
@@ -111,7 +119,7 @@
     <div class="section page3">
         <div class="container flex">
             <div class="half_1">
-                <h1 class="logo small">ARM<br>sport</h1
+                <h1 class="logo small">ARM<br>SPORT</h1>
                 <div class="text_container">
                     <p class="abouttop">Aostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
                     <p class="aboutbot">Aostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim</p>
@@ -120,37 +128,51 @@
         </div>
     </div>
     <div class="section page4">
-        <div  class="zona zone_1 "></div>
-        <div  class="zona zone_2 "></div>
-        <div  class="zona zone_3 "></div>
-        <div  class="zona zone_4 "></div>
+        <div id="main_banner" class="demo">
+            <div class="carousel-slide " style="background: url(./images/slide4/basic.jpg) no-repeat 50% 50%; background-size: cover;">
+                <div class="caption">Силовая зона</div>
+            </div>
+            <div class="carousel-slide" style="background: url(./images/slide4/cardio.jpg) no-repeat 50% 0%; background-size: cover;">
+                <div class="caption">Кардио зона</div>
+            </div>
+            <div class="carousel-slide" style="background: url(./images/slide4/basic.jpg) no-repeat 50% 50%; background-size: cover;">
+                <div class="caption">Hover to stop &amp; display arrows</div>
+            </div>
+            <div class="carousel-slide" style="background: url(./images/slide4/cardio.jpg) no-repeat 50% 0%; background-size: cover;">
+                <div class="caption">All done with one single line</div>
+            </div>
+            <span class="arrow left select-none">&lt;</span>
+            <span class="arrow right select-none">&gt;</span>
+        </div>
     </div>
     <div class="section page5">
         <div class="container_5">
 
             <div class="half_4">
-                <div class="item1">
-                    <div class="item_text1 item_text">
+                <h1>Новости</h1>
+                <div class="brn"></div>
+                <div style="width: 85%; margin-right: 0;margin-top:20px; border-radius: 10px 0  0 10px;" class="item1">
+                    <div  class="item_text1 item_text">
                         <h2 class ='zglmin1'>Новые infyub</h2>
                         <p class="text1">ТЕКСТ 1111</p>
                         <p class="date1">21 Августа 2017г</p>
                     </div>
                 </div>
-                <div class="item2">
+                <div class="item2" style="width: 85%; margin-left: 0; border-radius: 0px 10px  10px 0px;">
                     <div class="item_text2 item_text">
                         <h2 class ='zglmin2'>Новые гантели</h2>
                         <p class="text2"> ТЕКККСТ 2222</p>
                         <p class="date2">21 Августа 2017г</p>
                     </div>
                 </div>
-                <div class="item3">
+                <div style="width: 85%; margin-right: 0; border-radius: 10px 0  0 10px;" class="item3">
                     <div class="item_text3 item_text">
                         <h2 class ='zglmin3'>Новые гантели</h2>
                         <p class="text3"> ТЕКСТ 33333</p>
                         <p class="date3">21 Августа 2017г</p>
                     </div>
                 </div>
-                <div class="item4">
+                <div class="item4" style="width: 85%; margin-left: 0; border-radius: 0px 10px  10px 0px;">
                     <div class="item_text4 item_text">
                         <h2 class ='zglmin4'>Новые гантели</h2>
                         <p class="text4"> ТЕКСТ 4444</p>
@@ -163,29 +185,50 @@
 
     </div>
     <div class="section page6">
-        <div class="slider" data-slider>
-            <div class="slides">
-                <div class="slide slide1">
-                    <p class="coach_name">Евгений<br>Добролюбов</p>
-                    <center><img style="width: 80%;
-    height: auto;" class='coach_photod'src="images/coach1.png" alt=""></center>
-                    <center><a class="button coach" href="#">Записаться<div class="dumbcontainer"><img class="dumbwhite" src="images/dumble.png" title="Гантель" ><img class="dumbleblack"src="https://png.icons8.com/dumbbell-filled/ios7/25" title="Гантель Filled"></div></a></center>
-                </div>
-                <div class="slide slide2"></div>
-                <div class="slide slide3"></div>
-                <div class="slide slide4"></div>
-                <div class="slide slide5"></div>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
 
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="coach1_name">Евгение<br>Добролюбов</div>
+                    <img src="./images/coach1.png" alt="...">
+
+                </div>
+                <div class="item">
+                    <img src="http://placehold.it/700x300&text=Slide_02" alt="...">
+                    <div class="carousel-caption">
+                        Caption Goes Here
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="http://placehold.it/700x300&text=Slide_03" alt="...">
+                    <div class="carousel-caption">
+                        Caption Goes Here
+                    </div>
+                </div>
             </div>
-            <div data-slider-nav></div>
-            <div data-slider-count></div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"><</span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true">></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div style='height: 70vh; width: 100%'id="map">
         </div>
     </div>
     <div class="section page7">
         <div class="container flex">
-            <div class="map">
-                <iframe class='widget_map'src="https://yandex.ru/map-widget/v1/-/CBUV4RBPhC" width="100%" height="100%" frameborder="0"></iframe>
-            </div>
             <div class="info">
                 <div class="adress">
                     <p>время работы:<br><span>каждый день</span><br>8.00-22.00</p>
@@ -201,11 +244,14 @@
     </div>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
-
-
-
 <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+<script src="./js/simplycarousel.js"></script>
+<script>
+    $('.carousel-slide').sliderArrow()
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsOpnc4qp_oaVUIkXYeKtBR54b7DjULGA&callback=initMap" async defer></script>
+
 
 <script>
     var p;
@@ -460,134 +506,8 @@
     });
 </script>
 <script>
-    new WOW().init();
-</script>
-<script>
-    window.sliderInit = (function (window, document, undefined) {
-
-        'use strict';
-
-        // Feature Test
-        if ( 'querySelector' in document && 'addEventListener' in window && Array.prototype.forEach ) {
-
-            // SELECTORS
-            var sliders = document.querySelectorAll('[data-slider]');
-            var mySwipe = Array;
-
-
-            // EVENTS, LISTENERS, AND INITS
-
-            // Add class to HTML element to activate conditional CSS
-            document.documentElement.className += ' js-slider';
-
-            // Activate all sliders
-            Array.prototype.forEach.call(sliders, function (slider, index) {
-
-                // SELECTORS
-
-                var slideCount = slider.querySelector('[data-slider-count]'); // Slider count wrapper
-                var slideNav = slider.querySelector('[data-slider-nav]'); // Slider nav wrapper
-
-
-                // METHODS
-
-                // Display count of slides
-                var createSlideCount = function () {
-                    var slideTotal = mySwipe[index].getNumSlides();
-                    var slideCurrent = mySwipe[index].getPos();
-                    if ( slideCount !== null ) {
-                        slideCount.innerHTML = slideCurrent + ' of ' + slideTotal;
-                    }
-                };
-
-                // Display Slider navigation
-                var createNavButtons = function () {
-                    if ( slideNav !== null ) {
-                        slideNav.innerHTML = '<a data-slider-nav-prev href="#">Previous</a> | <a data-slider-nav-next href="#">Next</a>';
-                    }
-                };
-
-                // Stop YouTube, Vimeo, and HTML5 videos from playing when leaving the slide
-                var stopVideo = function () {
-                    var currentSlide = mySwipe[index].getPos() - 1;
-                    var iframe = slider.querySelector( '[data-index="' + currentSlide + '"] iframe');
-                    var video = slider.querySelector( '[data-index="' + currentSlide + '"] video' );
-                    if ( iframe !== null ) {
-                        var iframeSrc = iframe.src;
-                        iframe.src = iframeSrc;
-                    }
-                    if ( video !== null ) {
-                        video.pause();
-                    }
-                };
-
-                // Handle next button
-                var handleNextBtn = function (event) {
-                    event.preventDefault();
-                    stopVideo();
-                    mySwipe[index].next();
-                };
-
-                // Handle previous button
-                var handlePrevBtn = function (event) {
-                    event.preventDefault();
-                    stopVideo();
-                    mySwipe[index].prev();
-                };
-
-                // Handle keypress
-                var handleKeypress = function (event) {
-                    if ( event.keyCode == 37 ) {
-                        mySwipe[index].prev();
-                    }
-                    if ( event.keyCode == 39) {
-                        mySwipe[index].next();
-                    }
-                };
-
-
-                // EVENTS, LISTENERS, AND INITS
-
-                // Activate Slider
-                mySwipe[index] = Swipe(slider, {
-                    // startSlide: 2,
-                    // speed: 400,
-                    // auto: 3000,
-                    continuous: true,
-                    // disableScroll: false,
-                    // stopPropagation: false,
-                    callback: function(index, elem) {
-                        createSlideCount(); // Update with new position on slide change
-                    },
-                    // transitionEnd: function(index, elem) {}
-                });
-
-                // Create slide count and nav
-                createSlideCount();
-                createNavButtons();
-                var btnNext = slider.querySelector('[data-slider-nav-next]'); // Next slide button
-                var btnPrev = slider.querySelector('[data-slider-nav-prev]'); // Previous slide button
-
-                // Toggle Previous & Next Buttons
-                if ( btnNext ) {
-                    btnNext.addEventListener('click', handleNextBtn, false);
-                }
-                if ( btnPrev ) {
-                    btnPrev.addEventListener('click', handlePrevBtn, false);
-                }
-
-                // Toggle Left & Right Keypress
-                window.addEventListener('keydown', handleKeypress, false);
-
-            });
-
-        }
-
-    })(window, document);
-</script>
-<script>
         $('.modal').fadeOut()
-        $('#button').click(function () {
+        $('.button').click(function () {
                 var open = false
                 if (open){
                     $('.modal.writer').fadeOut()
@@ -596,6 +516,20 @@
                 }
                 else{
                     $('.modal.writer').fadeIn()
+                    open = true
+                }
+            }
+        )
+        $('.modal').fadeOut()
+        $('.button').click(function () {
+                var open = false
+                if (open){
+                    $('.modal.coach').fadeOut()
+                    open = false
+
+                }
+                else{
+                    $('.modal.coach').fadeIn()
                     open = true
                 }
             }
@@ -644,7 +578,22 @@
             $('.modal').fadeOut()
         })
 
+        function initMap() {
+            // Create a map object and specify the DOM element for display.
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: 56.852810, lng: 40.535447},
+                zoom: 16
+            });
+            var marker = new google.maps.Marker({
+                position: {lat: 56.852810, lng: 40.535447},
+                map: map,
+                title: 'Hello World!'
+            });
+        }
+
+
     </script>
 <script src="./js/custom-sm.js"></script>
+
 </body>
 </html>

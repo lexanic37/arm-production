@@ -17,6 +17,9 @@
     .number a{
         font-size:48px;
     }
+    .pcont{
+        margin-top: 100px;
+    }
 }
 @media  (max-width: 1366px) {
     .advantage p{
@@ -69,8 +72,14 @@
     .pcont{
         margin-top: 30px;
     }
+    .menu__a{
+        font-size:18px;
+    }
+    .menu__li{
+        margin: 0 25px;
+    }
 }
-@media  (max-width: 1024px) {
+@media  (max-width: 968px) {
     .half_6{
         justify-content: flex-start;
     }
@@ -114,6 +123,5 @@
         height:  200px;
         flex-grow: 0;
     }
-
-
 }
+
